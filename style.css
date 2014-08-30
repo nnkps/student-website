@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #BF6AD7;
+  text-align: center;
+  font-family: 'Palatino';
+}
+.container {
+  position: relative;
+  z-index: 50;
+  margin-top: 100px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #fff;
+}
+.row  {
+  display: table-row;
+  text-align: center;
+}
+.fancyHeader {
+  color: black;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: 'Just Me Again Down Here', sans-serif;
+  text-align: center;
+  font-size: 80px;
+  /* text -shadow */
+  text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #000;
+  -webkit-text-shadow: 0 0 2px #000;
+}
+.fancyBackground {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.divider {
+  border-top: 4px solid #E8A5F5;
+  margin-bottom: 30px;
+  height:20px;
+}
+.divider i {
+  position: absolute;
+  margin-top: -10px;
+}
+.fancyNav {
+  margin-bottom: 20px;
+  display: table-row;
+}
+.fancyPicture {
+  width: 140px;
+  height: 140px;
+  border-radius: 25px;
+  border: 7px solid transparent;
+  box-shadow:
+      0 0 0 3px #72E7BD;
+}
+.fancyPicture:hover {
+  box-shadow:
+      0 0 0 3px #42C6AB;
+}
+.fancyItem {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fancyLink {
+  /*width: 30px;*/
+  margin: 10px;
+}
+.fancyFooter {
+  margin: 10px;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #72E7BD;
+}
+a:hover, a:active {
+  color: #42C6AB;
+}
+.f-large {
+  font-size: 70px;
+}
+.f-medium {
+  font-size: 50px;
+}
+.f-small {
+  font-size: 30px;
+}
