@@ -60,7 +60,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.class("fancyBackground");
   background(255, 255, 255);
-  frameRate(10);
+  frameRate(15);
   noStroke();
   smooth();
   for (var i = 0; i < 100; i++) {

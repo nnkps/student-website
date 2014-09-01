@@ -6,15 +6,18 @@ body {
   font-family: 'Palatino';
 }
 .container {
+  margin-top: 40px ;
   position: relative;
   z-index: 50;
-  margin-top: 100px;
+  vertical-align: middle;
   display: table;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.7);
   border: 1px solid #fff;
+  padding: 10px;
+  padding-top: 0px;
 }
 .row  {
   display: table-row;
@@ -53,16 +56,18 @@ body {
   display: table-row;
 }
 .fancyPicture {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   border-radius: 25px;
-  border: 7px solid transparent;
+  border: 6px solid transparent;
   box-shadow:
-      0 0 0 3px #72E7BD;
+      0 0 0 2px #72E7BD;
+  padding: 0px;
+  margin: 0px 6px;
 }
 .fancyPicture:hover {
   box-shadow:
-      0 0 0 3px #42C6AB;
+      0 0 0 2px #42C6AB;
 }
 .fancyItem {
   display: inline-block;
@@ -70,10 +75,10 @@ body {
 }
 .fancyLink {
   /*width: 30px;*/
-  margin: 10px;
+  margin: 0px;
 }
 .fancyFooter {
-  margin: 10px;
+  margin: 5px;
   display: block;
 }
 a {
@@ -85,10 +90,33 @@ a:hover, a:active {
 }
 .f-large {
   font-size: 70px;
+  padding: 0 3px;
 }
 .f-medium {
   font-size: 50px;
+  padding: 0 2px;
 }
 .f-small {
   font-size: 30px;
+  padding: 0 1px;
+}
+
+@media screen and (max-width: 550px) {
+  .fancyHeader {
+    font-size: 70px;
+  }
+  .fancyPicture {
+    height: 80px;
+    width: 80px;
+    margin: 0 5px;
+  }
+  .f-large {
+    font-size: 50px;
+  }
+  .f-medium {
+    font-size: 40px;
+  }
+  .f-small {
+    font-size: 30px;
+  }
 }
